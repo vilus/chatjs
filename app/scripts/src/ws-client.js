@@ -20,7 +20,7 @@ function registerMessageHandler (handler_fn) {
   };
 }
 
-function sendMessage(payload) {
+function sendMessage (payload) {
   socket.send(JSON.stringify(payload));
 }
 
